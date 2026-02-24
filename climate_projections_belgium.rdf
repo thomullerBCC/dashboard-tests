@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:owl="http://www.w3.org/2002/07/owl#">
+  <dcat:Dataset rdf:about="https://www.climatecentre.be/dataset/22dc62f0-ca7f-11ee-9a71-847b573ec00f">
+    <dct:title>Climate projections for Belgium</dct:title>
+    <dct:description>The climate projections for Belgium are available as different data types: 1/ Daily climate model simulations and projections at a high spatial resolution of 0.025 degrees or 2.8km for 3 Regional Climate Models. 2/ Climate indicators for a present and future target year.</dct:description>
+    <dct:identifier>22dc62f0-ca7f-11ee-9a71-847b573ec00f</dct:identifier>
+    <dct:issued>2021-03-15</dct:issued>
+    <dct:modified>2021-03-15</dct:modified>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dct:publisher rdf:resource="https://www.climatecentre.be/organization/bcc"/>
+    <foaf:name>Belgian Climate Centre</foaf:name>
+    <dcat:distribution rdf:resource="https://www.climatecentre.be/dataset/22dc62f0-ca7f-11ee-9a71-847b573ec00f/resource/1"/>
+    <dcat:distribution rdf:resource="https://www.climatecentre.be/dataset/22dc62f0-ca7f-11ee-9a71-847b573ec00f/resource/2"/>
+    <dcat:distribution rdf:resource="https://www.climatecentre.be/dataset/22dc62f0-ca7f-11ee-9a71-847b573ec00f/resource/3"/>
+    <dcat:distribution rdf:resource="https://www.climatecentre.be/dataset/22dc62f0-ca7f-11ee-9a71-847b573ec00f/resource/4"/>
+    <dcat:keyword>Atmospheric conditions</dcat:keyword>
+    <dcat:keyword>climate projections</dcat:keyword>
+    <dcat:keyword>Belgium</dcat:keyword>
+  </dcat:Dataset>
+  <dcat:Distribution rdf:about="https://www.climatecentre.be/dataset/22dc62f0-ca7f-11ee-9a71-847b573ec00f/resource/1">
+    <dct:title>NetCDF files for download</dct:title>
+    <dcat:accessURL>https://ac.ngi.be/catalogue/getopenaccess/GeoBePartners-open/BelgianClimateCentre?treeview=true</dcat:accessURL>
+    <dct:format>NetCDF</dct:format>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://www.climatecentre.be/dataset/22dc62f0-ca7f-11ee-9a71-847b573ec00f/resource/2">
+    <dct:title>User guide - Climate indicators</dct:title>
+    <dcat:accessURL>https://ac.ngi.be/remoteclient-open/GeoBePartners-open/BelgianClimateCentre/UserGuide/User_guide_climate_indicators_geobe.pdf</dcat:accessURL>
+    <dct:format>PDF</dct:format>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://www.climatecentre.be/dataset/22dc62f0-ca7f-11ee-9a71-847b573ec00f/resource/3">
+    <dct:title>User guide - Daily climate model simulations</dct:title>
+    <dcat:accessURL>https://ac.ngi.be/remoteclient-open/GeoBePartners-open/BelgianClimateCentre/UserGuide/User_guide_daily_climate_model.pdf</dcat:accessURL>
+    <dct:format>PDF</dct:format>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://www.climatecentre.be/dataset/22dc62f0-ca7f-11ee-9a71-847b573ec00f/resource/4">
+    <dct:title>User guide - geo.be</dct:title>
+    <dcat:accessURL>https://ac.ngi.be/remoteclient-open/GeoBePartners-open/BelgianClimateCentre/UserGuide/User_guide_geo_be.pdf</dcat:accessURL>
+    <dct:format>PDF</dct:format>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </dcat:Distribution>
+</rdf:RDF>
